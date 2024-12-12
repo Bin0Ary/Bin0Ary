@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 # 💫 About Me:
-🌱 I'm currently learning C++ and C#.<br>🎥 I'm an avid watcher of shows and movies,<br>I really enjoy binge watching mystery or horror shows.<br>📕 I like reading English literature and tech books,<br>I also like reading horror Manga 
+🌱 I'm currently learning C++ and C#.<br>🎥 I'm an avid watcher of shows and movies,<br>I really enjoy binge watching mystery or horror shows.<br>📕 I like reading English literature and tech books 
 
 
 # 💻 Tech Stack:
