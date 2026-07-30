@@ -17,8 +17,7 @@ jobs:
         with:
           github_user_name: Bin0Ary
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?palette=github-dark&color_snake=%238b949e&color_dots=%230d1117,%23161b22,%2321262d,%2330363d,%2358a6ff
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
