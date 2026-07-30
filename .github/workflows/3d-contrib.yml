@@ -13,23 +13,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Generate 3D Contribution
-        uses: yoshi389111/github-profile-3d-contrib@0.9.3
+      - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit changes
+      - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-
-          git add .
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Update 3D contribution graph"
+          git add -A .
+          if git commit -m "generated"; then
             git push
           fi
