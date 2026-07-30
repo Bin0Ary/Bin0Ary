@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Bin0Ary profile banner</title>
+  <desc id="desc">A premium GitHub Dark inspired banner with a futuristic operating system aesthetic, glowing title, status pill, circuit board, radar sweep, scanline, and floating particles.</desc>
+
+  <defs>
+    <!-- Palette -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#111823"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161B22" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0F141C" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#30363D" stop-opacity="0.0"/>
+      <stop offset="20%" stop-color="#30363D" stop-opacity="0.85"/>
+      <stop offset="80%" stop-color="#30363D" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#30363D" stop-opacity="0.0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.33" cy="0.28" r="0.48">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#58A6FF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="boardGlow" cx="0.62" cy="0.50" r="0.58">
+      <stop offset="0%" stop-color="#79C0FF" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#58A6FF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#79C0FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#79C0FF" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#79C0FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="led" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3FB950"/>
+      <stop offset="100%" stop-color="#79C0FF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 H 0 V 32" fill="none" stroke="#30363D" stroke-opacity="0.20" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.25" fill="#58A6FF" fill-opacity="0.10"/>
+    </pattern>
+    <pattern id="hex" width="54" height="48" patternUnits="userSpaceOnUse">
+      <path d="M27 2 L48 14 L48 34 L27 46 L6 34 L6 14 Z" fill="none" stroke="#58A6FF" stroke-opacity="0.10" stroke-width="1"/>
+      <circle cx="27" cy="24" r="1.5" fill="#79C0FF" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feColorMatrix in="b" result="c" type="matrix" values="1 0 0 0 0  0 1 0 0 0.02  0 0 1 0 0.08  0 0 0 0.78 0"/>
+      <feMerge>
+        <feMergeNode in="c"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
+      <feFlood flood-color="#58A6FF" flood-opacity="0.65" result="flood"/>
+      <feComposite in="flood" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="boardClip">
+      <rect x="736" y="28" width="488" height="264" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base surface -->
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1280" height="320" fill="url(#halo)"/>
+  <rect width="1280" height="320" fill="url(#hex)" opacity="0.24"/>
+
+  <!-- Framing shell -->
+  <rect x="8" y="8" width="1264" height="304" rx="28" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+  <rect x="12" y="12" width="1256" height="296" rx="26" fill="none" stroke="#58A6FF" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Left content -->
+  <g transform="translate(56 54)">
+    <text x="0" y="0" fill="#F0F6FC" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="52" font-weight="700" letter-spacing="5" filter="url(#textGlow)">
+      BIN0ARY
+    </text>
+    <rect x="0" y="18" width="158" height="3" rx="2" fill="#58A6FF" fill-opacity="0.35"/>
+    <text x="0" y="54" fill="#F0F6FC" fill-opacity="0.92" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="18" letter-spacing="1.2">
+      Computer Engineering Student
+    </text>
+    <text x="0" y="84" fill="#8B949E" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="17" letter-spacing="0.8">
+      ASP.NET Core Backend Developer
+    </text>
+
+    <!-- Stack pills -->
+    <g transform="translate(0 112)">
+      <g>
+        <rect x="0" y="0" width="44" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+        <text x="22" y="20" text-anchor="middle" fill="#F0F6FC" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="14">C#</text>
+      </g>
+      <g transform="translate(52 0)">
+        <rect x="0" y="0" width="54" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+        <text x="27" y="20" text-anchor="middle" fill="#F0F6FC" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="14">.NET</text>
+      </g>
+      <g transform="translate(114 0)">
+        <rect x="0" y="0" width="92" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+        <text x="46" y="20" text-anchor="middle" fill="#F0F6FC" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="14">PostgreSQL</text>
+      </g>
+      <g transform="translate(214 0)">
+        <rect x="0" y="0" width="70" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+        <text x="35" y="20" text-anchor="middle" fill="#F0F6FC" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="14">Docker</text>
+      </g>
+      <g transform="translate(292 0)">
+        <rect x="0" y="0" width="58" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+        <text x="29" y="20" text-anchor="middle" fill="#F0F6FC" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="14">Linux</text>
+      </g>
+    </g>
+
+    <g transform="translate(0 158)">
+      <text x="0" y="16" fill="#8B949E" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="13" letter-spacing="1.8">STATUS</text>
+      <g transform="translate(0 28)">
+        <rect x="0" y="0" width="122" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="21" cy="17" r="5.5" fill="#3FB950" filter="url(#softGlow)">
+          <animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/>
+          <animate attributeName="r" values="5.2;6.4;5.2" dur="2.8s" repeatCount="indefinite"/>
+        </circle>
+        <text x="40" y="22" fill="#F0F6FC" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="15" letter-spacing="1.4">ONLINE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right visual system -->
+  <g clip-path="url(#boardClip)">
+    <rect x="736" y="28" width="488" height="264" rx="24" fill="url(#panel)" stroke="#30363D"/>
+    <rect x="736" y="28" width="488" height="264" rx="24" fill="url(#boardGlow)"/>
+    <rect x="736" y="28" width="488" height="264" rx="24" fill="url(#grid)" opacity="0.25"/>
+    <rect x="736" y="28" width="488" height="264" rx="24" fill="url(#hex)" opacity="0.35"/>
+
+    <!-- Circuit traces -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M778 72 H884 V54 H954" stroke="#58A6FF" stroke-opacity="0.22" stroke-width="2.2"/>
+      <path d="M772 118 H842 V96 H934" stroke="#79C0FF" stroke-opacity="0.18" stroke-width="2.2"/>
+      <path d="M824 214 H912 V236 H1002" stroke="#58A6FF" stroke-opacity="0.18" stroke-width="2.2"/>
+      <path d="M928 72 H1030 V112 H1118" stroke="#79C0FF" stroke-opacity="0.16" stroke-width="2.2"/>
+      <path d="M1002 154 H1082 V188 H1136" stroke="#58A6FF" stroke-opacity="0.18" stroke-width="2.2"/>
+      <path d="M762 196 H842 V176 H902" stroke="#58A6FF" stroke-opacity="0.16" stroke-width="2.2"/>
+      <circle cx="884" cy="54" r="4.4" fill="#58A6FF" fill-opacity="0.52"/>
+      <circle cx="934" cy="96" r="4.4" fill="#79C0FF" fill-opacity="0.42"/>
+      <circle cx="912" cy="236" r="4.4" fill="#58A6FF" fill-opacity="0.48"/>
+      <circle cx="1030" cy="112" r="4.4" fill="#79C0FF" fill-opacity="0.38"/>
+      <circle cx="1082" cy="188" r="4.4" fill="#58A6FF" fill-opacity="0.44"/>
+      <circle cx="842" cy="176" r="4.4" fill="#79C0FF" fill-opacity="0.36"/>
+    </g>
+
+    <!-- Radar -->
+    <g transform="translate(1036 158)">
+      <circle cx="0" cy="0" r="56" fill="none" stroke="#79C0FF" stroke-opacity="0.18"/>
+      <circle cx="0" cy="0" r="82" fill="none" stroke="#79C0FF" stroke-opacity="0.10" stroke-dasharray="4 7"/>
+      <circle cx="0" cy="0" r="112" fill="none" stroke="#79C0FF" stroke-opacity="0.06"/>
+      <g>
+        <line x1="0" y1="0" x2="0" y2="-112" stroke="#79C0FF" stroke-opacity="0.6" stroke-width="1.6"/>
+        <circle cx="0" cy="0" r="112" fill="url(#scan)" opacity="0.0"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="10s" repeatCount="indefinite"/>
+      </g>
+      <circle cx="0" cy="0" r="4.6" fill="#F0F6FC" fill-opacity="0.82"/>
+      <circle cx="0" cy="0" r="5.8" fill="none" stroke="#58A6FF" stroke-opacity="0.35"/>
+    </g>
+
+    <!-- Particle field -->
+    <g fill="#79C0FF" fill-opacity="0.78">
+      <circle cx="810" cy="78" r="2.2">
+        <animate attributeName="cy" values="78;62;78" dur="7.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.45;0.95;0.45" dur="7.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="910" cy="54" r="1.8">
+        <animate attributeName="cy" values="54;74;54" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1122" cy="68" r="2.1">
+        <animate attributeName="cy" values="68;54;68" dur="8.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1182" cy="150" r="1.8">
+        <animate attributeName="cy" values="150;136;150" dur="6.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="848" cy="214" r="1.9">
+        <animate attributeName="cy" values="214;194;214" dur="8.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1090" cy="230" r="2.4">
+        <animate attributeName="cy" values="230;208;230" dur="7.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1160" cy="232" r="1.6">
+        <animate attributeName="cy" values="232;214;232" dur="10s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Binary ornaments -->
+    <g fill="#8B949E" fill-opacity="0.48" font-family="JetBrains Mono, Segoe UI Mono, Consolas, monospace" font-size="12" letter-spacing="1.2">
+      <text x="760" y="58">01</text>
+      <text x="1190" y="66">10</text>
+      <text x="770" y="268">11</text>
+      <text x="1172" y="246">00</text>
+    </g>
+
+    <!-- Scanline -->
+    <g opacity="0.55">
+      <rect x="736" y="28" width="488" height="4" fill="url(#scan)">
+        <animateTransform attributeName="transform" type="translate" values="0 -10; 0 268; 0 -10" dur="5.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- Outer glass highlight -->
+  <rect x="736" y="28" width="488" height="264" rx="24" fill="none" stroke="#58A6FF" stroke-opacity="0.07"/>
+</svg>
