@@ -70,6 +70,13 @@ BIN0ARY // STATUS
 <img src="./assets/metrics.svg" width="78%">
 
 </p>
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Bin0Ary/Bin0Ary/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+</p>
 
 ---
 
