@@ -4,117 +4,88 @@
 
 ### Computer Engineering Student • ASP.NET Core Backend Developer
 
-<img src="./assets/banner.svg" width="100%" alt="Banner"/>
+<img src="./assets/banner.svg" width="100%">
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+Scalable+Backends;Learning+Something+New+Every+Day;Clean+Architecture+Enthusiast;Open+Source+Learner" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+Scalable+Backends;Clean+Architecture+Enthusiast;Open+Source+Learner;Always+Learning"/>
 
-<br><br>
+<br>
 
-<img src="https://komarev.com/ghpvc/?username=Bin0Ary&label=Profile+Views&style=for-the-badge&color=0e75b6"/>
-<img src="https://img.shields.io/github/followers/Bin0Ary?style=for-the-badge&logo=github"/>
-<img src="https://img.shields.io/github/stars/Bin0Ary?affiliations=OWNER&style=for-the-badge"/>
+<img src="https://komarev.com/ghpvc/?username=Bin0Ary&style=for-the-badge&color=0e75b6"/>
+<img src="https://img.shields.io/github/followers/Bin0Ary?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/C%23-.NET%208-512BD4?style=for-the-badge&logo=dotnet"/>
 
 </div>
 
----
-
-## ⚡ System Status
+## 💻 System
 
 ```text
-╭──────────────────── BIN0ARY // STATUS ────────────────────╮
-│                                                           │
-│  STATUS      ● ONLINE                                    │
-│                                                           │
-│  ROLE        Backend Developer                           │
-│  EDUCATION   Computer Engineering Student                │
-│                                                           │
-│  CURRENT     Building scalable ASP.NET Core APIs         │
-│                                                           │
-│  STACK       C# • ASP.NET Core • PostgreSQL              │
-│              Docker • Git • Linux                        │
-│                                                           │
-│  LEARNING    Clean Architecture                          │
-│              Software Design                             │
-│              Authentication                              │
-│              Distributed Systems                         │
-│                                                           │
-╰───────────────────────────────────────────────────────────╯
+BIN0ARY // STATUS
+────────────────────────────────
+
+● STATUS      Online
+
+● ROLE        Backend Developer
+
+● EDUCATION   Computer Engineering Student
+
+● STACK       C#
+              ASP.NET Core
+              PostgreSQL
+              Docker
+              Linux
+
+● CURRENT     Building scalable APIs
+
+● LEARNING    Clean Architecture
+              Distributed Systems
+              System Design
 ```
 
 <div align="center">
 
-### ⚙️ Tech Stack
+## ⚙️ Tech Stack
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,mysql,docker,git,github,rider,visualstudio,vscode,linux" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,docker,git,github,rider,visualstudio,vscode,linux" />
 
 </div>
-
----
-
-## 📊 Development Dashboard
-
-<p align="center">
-<img src="./assets/metrics.svg" width="100%" alt="GitHub Metrics"/>
-</p>
 
 ---
 
 ## 🌌 Contribution Landscape
 
 <p align="center">
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contributions"/>
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg"/>
+
 </p>
 
 ---
 
-## 🚀 Featured Projects
+## 📊 GitHub Dashboard
 
 <p align="center">
 
-<a href="https://github.com/Bin0Ary/TaskProject">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Bin0Ary&repo=TaskProject&theme=tokyonight&hide_border=true"/>
-</a>
-
-<a href="https://github.com/Bin0Ary/CodonWeb">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Bin0Ary&repo=CodonWeb&theme=tokyonight&hide_border=true"/>
-</a>
+<img src="./assets/metrics.svg" width="78%">
 
 </p>
 
 ---
 
-## 📚 Current Focus
+## 🎯 Current Goals
 
-```text
-✓ ASP.NET Core
-
-✓ Entity Framework Core
-
-✓ PostgreSQL
-
-✓ Docker
-
-✓ Clean Architecture
-
-✓ Authentication & Authorization
-
-✓ REST APIs
-
-✓ Performance & Scalability
-```
+- Build production-quality ASP.NET Core applications
+- Learn distributed systems and scalable architectures
+- Contribute to open source
+- Continue improving software design skills
 
 ---
 
 <div align="center">
 
-### "Good software isn't finished when there's nothing left to add.
+*"Programs must be written for people to read, and only incidentally for machines to execute."*
 
-### It's finished when there's nothing left to remove."
-
-<br>
-
-⭐ Thanks for visiting my profile!
+— Harold Abelson
 
 </div>
