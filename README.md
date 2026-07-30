@@ -1,17 +1,109 @@
-## Hi there 👋
+<div align="center">
 
-# 💫 About Me:
-🌱 I'm currently learning C#.
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Hello, I'm Bin0Ary
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Computer+Engineering+Student;ASP.NET+Core+Developer;Backend+Enthusiast;Open+Source+Learner;Always+Building+Something+Cool" />
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)  ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Bin0Ary&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Bin0Ary&theme=midnight-purple&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Bin0Ary&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+<br>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<img src="https://komarev.com/ghpvc/?username=Bin0Ary&label=Visitors&style=for-the-badge&color=0e75b6"/>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<img src="https://img.shields.io/github/followers/Bin0Ary?style=for-the-badge&color=blue"/>
+
+<img src="https://img.shields.io/github/stars/Bin0Ary?style=for-the-badge&color=yellow"/>
+
+</div>
+
+---
+
+# 💫 About Me
+
+```text
+╭──────────────────────────────────────────────╮
+│ 🎓 Computer Engineering Student              │
+│                                              │
+│ 💻 ASP.NET Core Backend Developer            │
+│                                              │
+│ ⚙️ Passionate about scalable architecture    │
+│                                              │
+│ 🗄️ PostgreSQL • SQL • APIs • Docker          │
+│                                              │
+│ 🚀 Currently learning advanced backend tech  │
+╰──────────────────────────────────────────────╯
+```
+
+---
+
+# ⚡ Tech Arsenal
+
+<div align="center">
+
+## Languages
+
+<img src="https://skillicons.dev/icons?i=cs,js,html,css,sql"/>
+
+## Backend
+
+<img src="https://skillicons.dev/icons?i=dotnet,nodejs"/>
+
+## Database
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql"/>
+
+## Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,rider,visualstudio,vscode,linux"/>
+
+</div>
+
+---
+
+# 📊 GitHub Statistics
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Bin0Ary&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bin0Ary&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Bin0Ary&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bin0Ary&theme=tokyo-night&hide_border=true"/>
+
+</div>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Bin0Ary&theme=tokyonight&column=4&margin-w=15&margin-h=15&no-frame=true"/>
+
+</div>
+
+---
+
+# 🚀 Current Focus
+
+- 🔹 ASP.NET Core
+- 🔹 Clean Architecture
+- 🔹 Entity Framework Core
+- 🔹 PostgreSQL
+- 🔹 Docker
+- 🔹 Authentication
+- 🔹 High-performance APIs
