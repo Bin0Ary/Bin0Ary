@@ -55,7 +55,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  ![snake](https://raw.githubusercontent.com/Bin0Ary/Bin0Ary/output/github-snake.svg)
+  <img src="https://raw.githubusercontent.com/Bin0Ary/Bin0Ary/output/github-snake.svg" />
 </p>
 
 ---
