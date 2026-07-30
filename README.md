@@ -20,28 +20,7 @@
 
 ## 💻 System
 
-```text
-BIN0ARY // STATUS
-────────────────────────────────
-
-● STATUS      Online
-
-● ROLE        Backend Developer
-
-● EDUCATION   Computer Engineering Student
-
-● STACK       C#
-              ASP.NET Core
-              PostgreSQL
-              Docker
-              Linux
-
-● CURRENT     Building scalable APIs
-
-● LEARNING    Clean Architecture
-              Distributed Systems
-              System Design
-```
+<img src="./assets/dashboard.svg" width="100%">
 
 <div align="center">
 
