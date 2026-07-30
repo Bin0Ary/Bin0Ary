@@ -69,6 +69,8 @@
 
 ---
 
+<img src="./assets/particles.svg" width="100%">
+
 <div align="center">
 
 *"Programs must be written for people to read, and only incidentally for machines to execute."*
