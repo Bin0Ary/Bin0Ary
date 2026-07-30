@@ -58,23 +58,11 @@
 
 ---
 
-# 📊 GitHub Statistics
+# 🌌 Contribution Landscape
 
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Bin0Ary&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bin0Ary&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Bin0Ary&theme=tokyonight&hide_border=true"/>
-
-</div>
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%">
+</p>
 
 ---
 
